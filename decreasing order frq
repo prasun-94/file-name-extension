@@ -1,27 +1,25 @@
 def fre(x):
-    frequency_find={}
+    frequency={}
     for char in x:
-        if char in frequency_find:
-            frequency_find[char]+=1
+        if char in frequency:
+            frequency[char]+=1
         else:
-                frequency_find[char]=1
-    for i in frequency_find:
-        print(i+"="+frequency_find[i])
+                frequency[char]=1
+    for i in frequency:
+        print("%s = %d"%(i,frequency[i]))
         
         
 g= input("enter a string")
 fre(g);
 
 
+
 output
 
-enter a stringApplication
-s=1
-s=2
-s=1
-s=2
-s=1
-s=1
-s=1
-s=1
-s=1
+enter a stringayushi
+a = 1
+y = 1
+u = 1
+s = 1
+h = 1
+i = 1
