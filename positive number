@@ -1,7 +1,16 @@
-list1 =[11, -21, 0, 45, 66,-93]  #list of numbers
+list1 =[12, -7, 5, 64, -14]  #list of numbers
 for num in list1:               #looking for each number in the list
     if num>=0:
         print(num,end = " ")
         
         
-        output (11,0, 45, 66)
+        output (12, 5, 64)
+        
+        
+ list2 =[12, 14,-95,3]
+ for num in list2:
+     if num>=0:
+        print(num, end = " ")
+        
+        
+       output (12,14,3)
